@@ -104,6 +104,7 @@ def get_recommendations(Titles, topN):
      return(df_similar_show.iloc[1:, ])
 
 
+# Printing the End Result
 rec = get_recommendations("Heat (1995)", topN = 9)
 print(rec)
 
